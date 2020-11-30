@@ -30,7 +30,7 @@ let package = Package(
     targets: [
         .target(
             name: "mamba",
-            dependencies: ["HLSObjectiveC"],
+            dependencies: ["HLSObjectiveC", "HLSParserError"],
             path: "mambaSharedFramework",
             exclude: [
                 "HLS ObjectiveC",
